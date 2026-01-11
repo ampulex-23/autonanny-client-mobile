@@ -1,0 +1,2 @@
+D:/AutoNanny/client-mobile/android/app/.cxx/debug/6u2r6e2y/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/AutoNanny/client-mobile/android/app/.cxx/debug/6u2r6e2y/armeabi-v7a/CMakeFiles/rebuild_cache.dir

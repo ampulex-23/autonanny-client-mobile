@@ -1,0 +1,64 @@
+name: nanny_client
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.2.0
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_svg: ^2.0.9
+  qr_flutter: ^4.1.0  # FE-MVP-017: Генерация QR-кодов
+
+  nanny_components:
+    path: ./nanny_components
+
+  nanny_core:
+    path: ./nanny_core
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.3.5
+  icons_launcher: ^2.1.5
+  mockito: ^5.4.4
+  build_runner: ^2.4.7
+
+flutter:
+  assets:
+    - ./nanny_components/assets/
+    - ./nanny_components/assets/images/
+    - ./nanny_components/assets/images/map/
+
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: ./nanny_components/assets/fonts/nunito/Nunito-Regular.ttf
+
+        - asset: ./nanny_components/assets/fonts/nunito/Nunito-Light.ttf
+          weight: 300
+
+        - asset: ./nanny_components/assets/fonts/nunito/Nunito-Bold.ttf
+          weight: 700
+
+    - family: Fregat
+      fonts:
+        - asset: ./nanny_components/assets/fonts/fregat/Fregat_regular.otf
+
+        - asset: ./nanny_components/assets/fonts/fregat/Fregat_italic.otf
+          style: italic
+
+        - asset: ./nanny_components/assets/fonts/fregat/Fregat_bold.otf
+          weight: 700
+
+        - asset: ./nanny_components/assets/fonts/fregat/Fregat_bold_italic.otf
+          weight: 700
+          style: italic
+
+  uses-material-design: true

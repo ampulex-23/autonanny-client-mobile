@@ -1,0 +1,2 @@
+D:/AutoNanny/client-mobile/android/app/.cxx/release/60471y25/x86_64/CMakeFiles/edit_cache.dir
+D:/AutoNanny/client-mobile/android/app/.cxx/release/60471y25/x86_64/CMakeFiles/rebuild_cache.dir

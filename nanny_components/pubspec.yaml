@@ -1,0 +1,72 @@
+name: nanny_components
+description: A new Flutter package project.
+publish_to: none
+version: 0.0.1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+  flutter: '>=3.19.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  mask_text_input_formatter: ^2.5.0
+  flutter_slidable: ^3.1.1
+  d_chart: ^2.6.3
+  sliding_up_panel: ^2.0.0+1
+  # flutter_pdfview: ^1.3.2
+  flutter_cached_pdfview: ^0.4.2
+
+  google_maps_flutter: ^2.5.0
+  qr_flutter: ^4.1.0
+
+  # better_player: ^0.0.84  # Временно отключен из-за несовместимости
+  flutter_svg: ^2.0.9
+
+  nanny_core:
+    path: ../nanny_core
+
+  time_range_picker:
+    path: ./flutter_time_range_picker
+  google_fonts: ^4.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  assets:
+    - ./assets/
+    - ./assets/images/
+    - ./assets/images/map/
+
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: ./assets/fonts/nunito/Nunito-Regular.ttf
+
+        - asset: ./assets/fonts/nunito/Nunito-Light.ttf
+          weight: 300
+
+        - asset: ./assets/fonts/nunito/Nunito-Bold.ttf
+          weight: 700
+
+    - family: Fregat
+      fonts:
+        - asset: ./assets/fonts/fregat/Fregat_regular.otf
+
+        - asset: ./assets/fonts/fregat/Fregat_italic.otf
+          style: italic
+
+        - asset: ./assets/fonts/fregat/Fregat_bold.otf
+          weight: 700
+
+        - asset: ./assets/fonts/fregat/Fregat_bold_italic.otf
+          weight: 700
+          style: italic
