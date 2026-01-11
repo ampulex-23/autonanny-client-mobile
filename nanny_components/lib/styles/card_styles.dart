@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-final CardThemeData defaultCardStyle = CardThemeData(
+final CardTheme defaultCardStyle = CardTheme(
   shape: RoundedRectangleBorder(
     borderRadius: BorderRadius.circular(20)
   )
