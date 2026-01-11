@@ -25,6 +25,10 @@ subprojects {
                     namespace project.group
                 }
                 
+                if (project.android.compileSdkVersion == null) {
+                    compileSdkVersion 34
+                }
+                
                 compileOptions {
                     sourceCompatibility JavaVersion.VERSION_17
                     targetCompatibility JavaVersion.VERSION_17

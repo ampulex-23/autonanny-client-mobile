@@ -6,12 +6,12 @@ workflows:
     environment:
       flutter: 3.24.0
       java: 17
-      groups:
-        - android_credentials
     triggering:
       events:
         - push
       branch_patterns:
+        - pattern: master
+          include: true
         - pattern: main
           include: true
         - pattern: develop
